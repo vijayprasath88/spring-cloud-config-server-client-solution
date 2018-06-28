@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/vijayprasath88/config-properties.git
+          search-paths: eureka-properties
+          refresh-rate: 30
+server:
+  port: 8001
